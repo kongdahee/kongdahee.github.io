@@ -1,0 +1,44 @@
+
+
+.background{
+	background-color: #FFF;
+}
+
+
+
+
+p{
+	font-size: 50px;
+	font-family: Arial; 
+	color:#585858;
+	font-weight: bolder;
+	margin: 10px 10px 10px 10px;
+}
+
+
+a:link {
+	color:#585858;
+}
+
+a:visited {
+	color:#585858;
+	background-color:#FFE36E;
+}
+
+a:hover {
+	background-color:#E4D2FF;
+}
+
+a:active {
+	color:#E4D2FF;
+	background-color:#FFF;
+}
+
+--------------------------------------------------
+
+
+
+.outline{
+	border: solid #FF1463;
+	border-width: 4px;
+}
