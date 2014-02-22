@@ -1,0 +1,91 @@
+	div.bounce{
+	  position : relative;
+	  width : 1200px;
+	  height : 1.5em;
+	  border-radius : 50%;
+	  background : radial-gradient(top left, transparent, transparent 0%);
+	  background : -o-radial-gradient(top left, transparent, transparent 20%);
+	  background : -ms-radial-gradient(top left, transparent, transparent 20%);
+	  background : -moz-radial-gradient(top left, transparent, transparent 20%);
+	  background : -webkit-radial-gradient(top left, transparent, transparent 20%);
+	  animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+	  -o-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+	  -ms-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+	  -moz-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+	  -webkit-animation : bounce 0.5s cubic-bezier(0.3,0.6,1,0.5) alternate infinite;
+	  bottom : 1em;
+	  box-shadow : 0 1em 1em transparent;    
+	}
+	
+	@keyframes bounce{
+	  60%{
+	    bottom : 0.5em;
+	    height : 1.5em;
+	    width : 1200px;
+	    box-shadow : 0 0.5em 0.6em transparent;
+	  }
+	  to{
+	    bottom : 0;
+	    height : 1em;
+	    width : 1200px;
+	    box-shadow : 0 0.6em 0.7em transparent;
+	  }
+	}
+	@-o-keyframes bounce{
+	  60%{
+	    top : 0.5em;
+	    height : 1.5em;
+	    width : 1200px;
+	    box-shadow : 0 0.5em 0.6em transparent;
+	  }
+	  to{
+	    top : 1em;
+	    height : 1em;
+	    width : 1200px;
+	    box-shadow : 0 0.6em 0.7em transparent;
+	  }
+	}
+	@-ms-keyframes bounce{
+	  60%{
+	    top : 0.5em;
+	    height : 1.5em;
+	    width : 1200px;
+	    box-shadow : 0 0.5em 0.6em transparent;
+	  }
+	  to{
+	    top : 1em;
+	    height : 1em;
+	    width : 1200px;
+	    box-shadow : 0 0.6em 0.7em transparent;
+	  }
+	}
+	@-moz-keyframes bounce{
+	  60%{
+	    top : 0.5em;
+	    height : 1.5em;
+	    width : 1200px;
+	    box-shadow : 0 0.5em 0.6em transparent;
+	  }
+	  to{
+	    top : 1em;
+	    height : 1em;
+	    width : 1200px;
+	    box-shadow : 0 0.6em 0.7em transparent;
+	  }
+	}
+	@-webkit-keyframes bounce{
+	  60%{
+	    top : 0.5em;
+	    height : 1.5em;
+	    width : 1200px;
+	    box-shadow : 0 0.5em 0.6em transparent;
+	  }
+	  to{
+	    top : 1em;
+	    height : 1em;
+	    width : 1200px;
+	    box-shadow : 0 0.6em 0.7em transparent;
+	  }
+	}
+
+

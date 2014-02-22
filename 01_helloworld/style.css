@@ -1,0 +1,296 @@
+	
+	div#container{
+		width:45000px;
+		height:600px;
+		margin:0px 0px 0px 0px;
+		z-index:3
+	}
+	
+	div.opacity20{
+		opacity:0.2;
+	}
+	
+	div.opacity40{
+		opacity:0.4;
+	}
+
+	div.opacity60{
+		opacity:0.6;
+	}
+	
+	div.opacity80{
+		opacity:0.8;
+	}
+	
+	div.fontsize40{
+		font-size:40px;
+	}
+
+	div.inherit{
+		position:inherit;
+	}
+	
+	div.box{
+		float:left;
+		position: relative;
+		clear:none;
+		width:500px;
+		height:630px;
+		padding:20px;
+		border:0px white;
+		margin:0px 0px 0px 0px;
+		font-size:120px;
+		font-family: "Monda";
+		font-weight: Bold;
+		font-color: white;
+	}
+
+	div.box2{
+		float:left;
+		position: relative;
+		clear:none;
+		width:300px;
+		height:630px;
+		padding:20px;
+		border:5px white;
+		margin:300px 0px 0px 0px;
+		background-color: none;
+		font-size:300px;
+		font-family: "Monda";
+		font-weight: Bold;
+	}
+	
+	div.box3{
+		float:left;
+		position: relative;
+		clear:none;
+		width:300px;
+		height:630px;
+		padding:20px;
+		border:5px white;
+		margin:-7px 0px 0px 0px;
+		background-color: none;
+		font-size:900px;
+		font-family: "Monda";
+		font-weight: Bold;
+	}
+	
+	div.stars1{
+		float:left;
+		position: relative;
+		clear:none;
+		width:300px;
+		height:630px;
+		padding:0px;
+		border:0px white;
+		margin:0px 0px 0px 0px;
+		background-color:none;
+		font-size:100px;
+		font-family: "Monda";
+		font-weight: Bold;
+	}	
+	
+	div.stars2{
+		float:left;
+		position: relative;
+		clear:none;
+		width:150px;
+		height:40px;
+		padding:0px;
+		border:0px white;
+		margin:300px 0px 0px 0px;
+		background-color:none;
+		font-size:20px;
+		font-family: "Monda";
+		font-weight: Bold;
+		text-align:center;
+	}	
+
+	div.stars3{
+		float:left;
+		position: relative;
+		clear:none;
+		width:900px;
+		height:800px;
+		padding:0px;
+		border:0px;
+		margin:0px 0px 0px 0px;
+		background-color:none;
+		font-size: 5px;
+		font-family: "Monda";
+		font-weight: Bold;
+	}	
+
+	div.ch1{	
+		float:left;
+		position: relative;
+		clear:none;
+		padding:20px;
+		border:5px white;
+		margin:0px 0px 0px 0px;
+		z-index:1;
+		background-color:none;
+		color:white;
+		font-family:"Monda";
+		font-size:smaller;
+		line-height: 150%;
+		font-weight: Bold;
+	}
+
+
+	div.ch2{	
+		float:left;
+		position: relative;
+		clear:none;
+		width:250px;
+		height:630px;
+		padding:20px;
+		border:5px white;
+		margin:240px 20px 30px 0px;
+		z-index:1;
+		background-color:none;
+		color: #fff;
+		font-family:"Monda";
+		font-size:smaller;
+		line-height: 150%;
+		font-weight: Bold;
+	}
+	
+	
+	div#city {
+		float:left;
+		margin-left:100px;
+		margin-top: 40px;
+		position:fixed;
+    	background-color: #fff;
+    	border:10px; 
+   	 	height: 900px;
+    	width: 100px;
+	}
+ 
+ 	div#city:hover {
+		float:left;
+		margin-left:100px;
+		margin-top: 40px;
+		position:fixed;
+    	background-color: #fff;
+    	border:10px; 
+   	 	height: 900px;
+    	width: 100px;
+	}
+ 
+	div#city2 {
+		float:left;
+		margin-left:450px;
+		margin-top:150px;
+		clear:none;
+		position:fixed;
+    	background-color: black;
+    	border:10px; 
+   	 	height: 900px;
+    	width: 200px;
+    	opacity:0.8;
+	}
+		
+	div#city3 {
+		float:left;
+		margin-left:700px;
+		margin-top:60px;
+		clear:none;
+		position:fixed;
+    	background-color: white;
+    	border:10px; 
+   	 	height: 900px;
+    	width: 300px;
+	}
+		
+	div#city4 {
+		float:left;
+		margin-left:250px;
+		margin-top:400px;
+		clear:none;
+		position:fixed;
+    	background-color: black;
+    	border:10px; 
+   	 	height:900px;
+    	width: 150px;
+		}
+		
+	div#city5 {
+		float:left;
+		margin-left:1050px;
+		margin-top:200px;
+		clear:none;
+		position:fixed;
+    	background-color: black;
+    	border:10px;
+   	 	height:900px;
+    	width: 150px;
+	} 
+
+ 
+ 	div.testtext {
+    	position: relative;
+    	height: auto;
+    	width: auto;
+		left:100px;
+    	top: 50px;
+    	color:black;
+    	font-size: 100px;
+    	font-family: "Modern Pictograms";
+    	z-index:1;
+	}
+	
+
+	div.flow{
+		font-size: 48px;
+    	font-family: "Monda";
+    	float:left;
+		position: inherit;
+		clear:right;
+		width:auto;
+		height:auto;
+		padding:0px;
+		border:0px white;
+		margin:10px 0px 0px 12px;
+		z-index:1;
+		background-color:none;
+		color:black;
+		line-height: 150%;
+		font-weight: Bold;    	
+    }
+	
+	div.img {
+		margin: -20px 0px 0px 0px;
+		position:absolute;
+	}
+			
+
+	div.popout {
+		height: 48px;
+		width: 48px;
+		margin: 10px;
+		float: left;
+		-webkit-transition: all ease 0.5s;
+		-moz-transition: all ease 0.5s;
+		-o-transition: all ease 0.5s;
+		-ms-transition: all ease 0.5s;
+		transition: all ease 0.5s;
+	}
+	div.popout img {
+		border-radius: 50%;
+		margin: 1px;
+		width: auto;
+		box-shadow: 0px 0px 4px 1px rgba (0 0 0 0.8);
+		-webkit-transition: all ease 0.5s;
+		-moz-transition: all ease 0.5s;
+		-o-transition: all ease 0.5s;
+		-ms-transition: all ease 0.5s;
+		transition: all ease 0.5s;
+	}
+	div.popout img:hover {
+		margin: 0px;
+		box-shadow: 6px 6px 4px 4px rgba(0, 0, 0, 0.3);
+	}
+	
+
