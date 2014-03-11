@@ -1,19 +1,38 @@
-.background{
-	background-color: #FFF;
-}
-
-
-
 p{
-	font-size: 50px;
-	font-family: Arial; 
+	font-size: 30px;
+	font-family: "Monda"; 
+	font-weight: 400;
+	line-height: 105%;
 	color:#585858;
-	font-weight: bolder;
 	margin: 10px 10px 10px 10px;
 }
-–
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+h2{
+	font-size: 30px;
+	font-family: "Monda"; 
+	font-weight: 700;
+	line-height: 105%;
+	color:#585858;
+	margin: 10px 10px 10px 10px; }
+
+h1{
+	font-size: 50px;
+	font-family: "Monda"; 
+	font-weight: 700;
+	line-height: 105%;
+	color:#585858;
+	margin: 10px 10px 10px 10px;
+}
+
+
 a:link {
 	color:#585858;
+	text-decoration: none;
 }
 
 a:visited {
@@ -27,12 +46,17 @@ a:hover {
 
 a:active {
 	color:#E4D2FF;
-	background-color:#FFF;
 }
 
 --------------------------------------------------
 
+#container{
+		margin:0px 30px 0px 0px;
+}
 
+.bg {
+	color:#E4D2FF;
+}
 
 .outline{
 	border: solid #FF1463;
